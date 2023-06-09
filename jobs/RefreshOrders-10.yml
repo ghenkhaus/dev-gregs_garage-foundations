@@ -1,0 +1,6 @@
+excludeSelector: "+{ location: TGT name: DIM_CUSTOMER } OR +{ location: TGT name: DIM_PART }"
+id: "10"
+includeSelector: "+{ location: TGT name: FCT_ORDERS_DIM_LOOKUP }"
+name: Refresh Orders
+type: Job
+version: 1

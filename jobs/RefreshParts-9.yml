@@ -1,0 +1,6 @@
+excludeSelector: ""
+id: "9"
+includeSelector: "+{ location: TGT name: DIM_PART }"
+name: Refresh Parts
+type: Job
+version: 1

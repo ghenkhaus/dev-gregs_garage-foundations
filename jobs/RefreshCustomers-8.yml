@@ -1,0 +1,6 @@
+excludeSelector: ""
+id: "8"
+includeSelector: "+{ location: TGT name: DIM_CUSTOMER }"
+name: Refresh Customers
+type: Job
+version: 1

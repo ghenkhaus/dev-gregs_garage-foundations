@@ -1,0 +1,11 @@
+id: "32"
+mappingDefinitions:
+  SRC:
+    database: GREG_EDW
+    schema: DEV_GREGS_GARAGE_FOUNDATIONS_PROD_TGT
+  TGT:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Foundations Prod
+type: Environment
+version: 1
