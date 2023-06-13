@@ -1,0 +1,11 @@
+id: "39"
+mappingDefinitions:
+  SRC:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+  TGT:
+    database: GREG_EDW
+    schema: DEV_GREGS_GARAGE_FOUNDATIONS_QA_TGT
+name: Foundations QA
+type: Environment
+version: 1
