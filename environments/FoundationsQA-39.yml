@@ -7,8 +7,5 @@ mappingDefinitions:
   TGT:
     database: GREG_EDW
     schema: DEV_GREGS_GARAGE_FOUNDATIONS_QA_TGT
-  XML:
-    database: ""
-    schema: ""
 name: Foundations QA
 type: Environment

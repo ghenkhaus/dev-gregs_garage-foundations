@@ -2,7 +2,7 @@ fileVersion: 1
 id: "84"
 isDisabled: false
 metadata:
-  defaultStorageLocation: XML
+  defaultStorageLocation: TGT
   error: null
   nodeMetadataSpec: |-
     capitalized: External Table
