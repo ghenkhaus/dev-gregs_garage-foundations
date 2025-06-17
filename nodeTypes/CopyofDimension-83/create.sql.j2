@@ -17,7 +17,7 @@
 	)
 	{%- if node.description | length > 0 %} COMMENT = '{{ node.description | escape }}'{% endif %}
 
-
+{{d().}}
 {% elif node.materializationType == 'view' %}
 	{{ stage('Create Dimension View') }}
 
