@@ -1,11 +1,10 @@
+fileVersion: 1
 id: 45537843-d244-4e5b-b6e2-244b9b7282aa
 name: PART
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -144,12 +143,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'PART') }}
   name: PART
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: PART
   type: sourceInput
+  version: 1
 type: Node
-version: 1

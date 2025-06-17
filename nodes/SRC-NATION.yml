@@ -1,11 +1,10 @@
+fileVersion: 1
 id: 219af885-fca3-46c1-a573-fdf0dc9675dc
 name: NATION
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -69,12 +68,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'NATION') }}
   name: NATION
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: NATION
   type: sourceInput
+  version: 1
 type: Node
-version: 1

@@ -1,11 +1,10 @@
+fileVersion: 1
 id: ffe008af-c0b4-4a2b-a783-103d14c31d39
 name: ORDERS
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -144,12 +143,9 @@ operation:
         nullable: false
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'ORDERS') }}
   name: ORDERS
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: ORDERS
   type: sourceInput
+  version: 1
 type: Node
-version: 1

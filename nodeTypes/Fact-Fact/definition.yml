@@ -1,3 +1,4 @@
+fileVersion: 1
 id: Fact
 isDisabled: false
 metadata:
@@ -52,4 +53,3 @@ metadata:
       attributeName: isSystemUpdateDate
 name: Fact
 type: NodeType
-version: 1

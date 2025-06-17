@@ -1,3 +1,4 @@
+fileVersion: 1
 id: "39"
 mappingDefinitions:
   SRC:
@@ -6,6 +7,8 @@ mappingDefinitions:
   TGT:
     database: GREG_EDW
     schema: DEV_GREGS_GARAGE_FOUNDATIONS_QA_TGT
+  XML:
+    database: ""
+    schema: ""
 name: Foundations QA
 type: Environment
-version: 1

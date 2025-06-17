@@ -1,11 +1,10 @@
+fileVersion: 1
 id: a3bf8bbe-fef8-4eda-a39a-10615046264e
 name: LINEITEM
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -249,12 +248,9 @@ operation:
         nullable: false
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'LINEITEM') }}
   name: LINEITEM
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: LINEITEM
   type: sourceInput
+  version: 1
 type: Node
-version: 1

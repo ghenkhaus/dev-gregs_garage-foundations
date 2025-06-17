@@ -1,11 +1,10 @@
+fileVersion: 1
 id: f6854b3a-c8a1-4e5b-aace-00aa1a9eeecc
 name: REGION
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -54,12 +53,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'REGION') }}
   name: REGION
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: REGION
   type: sourceInput
+  version: 1
 type: Node
-version: 1

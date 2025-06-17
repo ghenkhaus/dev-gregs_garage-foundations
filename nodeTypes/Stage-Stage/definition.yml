@@ -1,3 +1,4 @@
+fileVersion: 1
 id: Stage
 isDisabled: false
 metadata:
@@ -59,4 +60,3 @@ metadata:
         isRequired: false
 name: Stage
 type: NodeType
-version: 1

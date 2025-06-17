@@ -1,11 +1,10 @@
+fileVersion: 1
 id: 660eb876-51cb-4e68-b78a-ab9475b1e225
 name: CUSTOMER
 operation:
-  database: ""
-  dataset: ""
+  database: COALESCE_SAMPLE_DATABASE
   deployEnabled: true
   description: ""
-  locationID: ""
   locationName: SRC
   metadata:
     columns:
@@ -129,12 +128,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'CUSTOMER') }}
   name: CUSTOMER
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
-  table: CUSTOMER
   type: sourceInput
+  version: 1
 type: Node
-version: 1

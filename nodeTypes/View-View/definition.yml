@@ -1,5 +1,6 @@
+fileVersion: 1
 id: View
-isDisabled: true
+isDisabled: false
 metadata:
   defaultStorageLocation: null
   error: null
@@ -38,4 +39,3 @@ metadata:
           enableIf: "{% if node.isMultisource %} true {% else %} false {% endif %}"
 name: View
 type: NodeType
-version: 1

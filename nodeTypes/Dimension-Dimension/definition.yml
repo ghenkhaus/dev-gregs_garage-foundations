@@ -1,3 +1,4 @@
+fileVersion: 1
 id: Dimension
 isDisabled: false
 metadata:
@@ -92,4 +93,3 @@ metadata:
       attributeName: isSystemUpdateDate
 name: Dimension
 type: NodeType
-version: 1
